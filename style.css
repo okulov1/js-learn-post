@@ -55,29 +55,32 @@ body {
     align-items: center;
 }
 
-.action {
+.action a {
     margin-right: 20px;
     border-radius: 5px;
     background-color: #fff;
     padding: 10px;
     color: #ffffff;
+    cursor: inherit;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .text {
     color: #e7e7e7;
 }
 
-.like {
+.like a {
     background-color: #ff1717;
 }
-.unlike {
+.unlike a {
     background-color: #818181;
 }
 
-.comment {
+.comment a {
     background-color: #818181;
 }
 
-.share {
+.share a {
     background-color: #818181;
 }
