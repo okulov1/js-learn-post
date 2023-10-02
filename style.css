@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #d8d8d8;
+}
+
+.content {
+    margin: 100px 300px 0 300px;
+}
+
+.center {
+    text-align: center;
+    margin: 0 400px;
+    margin-bottom: 50px;
+}
+
+.post {
+    background-color: #9b9b9b;
+    padding: 20px;
+    border: #7c7c7c 5px solid;
+    border-radius: 10px;
+}
+
+.avatar {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.name a {
+    font-size: 2em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.author {
+    margin-bottom: 20px;
+}
+
+.views, .date {
+    margin-left: 20px;
+    font-size: 20px;
+    color: #d8d8d8;
+}
+
+.actions {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.action {
+    margin-right: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.text {
+    color: #e7e7e7;
+}
+
+.like {
+    background-color: #ff1717;
+}
+.unlike {
+    background-color: #818181;
+}
+
+.comment {
+    background-color: #818181;
+}
+
+.share {
+    background-color: #818181;
+}
